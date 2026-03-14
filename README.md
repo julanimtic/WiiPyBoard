@@ -38,6 +38,6 @@ Le script affiche dans le terminal les données récupérées par les capteurs d
   ## Utilisation
 
 Sur votre PC, il vous faudra ensuite une application capable de récupérer et d'interpréter le flux de données via le protocole UDP. 
-Dans le dossier applications vous trouverez deux exemples programmés via Processing : 
-- le premier "WiiPyCercle" permet de déplacer un cercle en déplaçant son centre de gravité sur la Wii Balance Board.
-- le second "WiiPyJumpCam" est un photomaton permettant de prendre une photo via la Webcam de votre PC lorsque vous sautez depuis la WiiBalanceBoard.
+Dans le dossier Exemples vous trouverez deux applications programmées avec Processing : 
+- la première "WiiPyCercle" permet de déplacer un cercle en déplaçant son centre de gravité sur la Wii Balance Board.
+- la seconde "WiiPyJumpCam" est un photomaton permettant de prendre une photo via la Webcam de votre PC lorsque vous sautez depuis la WiiBalanceBoard.
