@@ -1,12 +1,9 @@
 // ============================================================
-// Jump Cam - Photo automatique quand quelqu'un saute
+// WiiPyJumpCam - Photo automatique quand quelqu'un saute
 // ------------------------------------------------------------
 // Reçoit les données UDP de la Balance Board (Python)
 // et déclenche une photo webcam lors d'un saut détecté
 //
-// Prérequis : installer les librairies dans Processing
-//   1. "UDP" de Stephane Cousot
-//   2. "Video" de Processing Foundation (pour la webcam)
 // ============================================================
 
 import hypermedia.net.*;
@@ -18,7 +15,7 @@ final int   SAUT_SEUIL        = 32000;   // total en dessous = saut détecté
 final int   POIDS_MIN         = 38000;   // total minimum pour considérer qu'une personne est présente
 final int   DELAI_PHOTO_MS    = 200;    // délai après détection du saut avant de prendre la photo (ms)
 final int   DELAI_ENTRE_SAUTS = 3000;  // délai minimum entre deux photos (ms)
-final String DOSSIER_PHOTOS   = "/Users/juliendevriendt/Desktop/photos/";
+final String DOSSIER_PHOTOS   = "/Users/Desktop/photos/";
 
 // ── Variables UDP ─────────────────────────────────────────────
 UDP udp;
