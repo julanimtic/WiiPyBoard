@@ -10,10 +10,10 @@ import logging
 # =============================================
 # CONFIGURATION
 # =============================================
-BALANCE_BOARD_ADDR = "00:24:44:F2:18:DF"
-UDP_IP = "192.168.1.75"
-UDP_PORT = 5005
-LOG_FILE = "/home/wiiboard/Desktop/wiiboard2.log"
+BALANCE_BOARD_ADDR = "00:XX:XX:XX:XX:X"
+UDP_IP = "192.168.XXX.XXX"
+UDP_PORT = 10000
+LOG_FILE = "/home/pi/Desktop/WiiPyBoard.log"
 # =============================================
 
 logging.basicConfig(
@@ -88,7 +88,7 @@ def main():
     try:
         ctrl_sock, data_sock = connect_balance_board(BALANCE_BOARD_ADDR)
     except Exception:
-        log.critical("Connexion impossible. Verifie que la Balance Board est allumee.")
+        log.critical("Connexion impossible. Verifie que la Wii Balance Board est allumee.")
         return
 
     # Socket UDP
