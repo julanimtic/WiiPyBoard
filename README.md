@@ -1,15 +1,15 @@
 # WiiPyBoard
 Python script for connecting a Wii Balance Board to a Mac/PC via a Raspberry Pi zero 2W using UDP protocol.
 
-Script Python permettant de connecter une Wii Balance Board à un Mac/PC via un Raspberry Pi Zero 2w en utilisant le protocole UDP.
+Script Python permettant de connecter une Wii Balance Board à un Mac/PC via un Raspberry Pi Zero 2W en utilisant le protocole UDP.
 
 ## Pré-requis
 - Une Wii Balance Board
 - Un Raspberry Pi zero 2W
 
-Le script se lance sur un raspberry Pi zero 2w, il n'a pas été testé sur d'autres cartes.
+Le script se lance sur un raspberry Pi zero 2W, il n'a pas été testé sur d'autres cartes.
 
-Avant de lancer le script assurez-vous que votre Wii Balance Board se connecte en bluetooth à votre Raspberry Pi Zero 2W. Celle-ci devrait apparaitre sous le nom "Nintendo RVL-WBC-01". Profitez-en pour récupérer l'adresse MAC de la Wii Balance Board. pour appairer votre Wii Balance Board, il faudra appuyez sur le bouton rouge d'appairage situé dans le compartiment des piles.
+Avant de lancer le script, assurez-vous que votre Wii Balance Board se connecte en bluetooth à votre Raspberry Pi Zero 2W. Celle-ci devrait apparaitre sous le nom "Nintendo RVL-WBC-01". Profitez-en pour récupérer l'adresse MAC de la Wii Balance Board. pour appairer votre Wii Balance Board, il faudra appuyez sur le bouton rouge d'appairage situé dans le compartiment des piles.
 
 ## Configuration  
 Avant de lancer le script modifiez la configuration du script lignes 13 à 16 :
