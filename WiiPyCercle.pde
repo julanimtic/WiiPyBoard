@@ -1,15 +1,28 @@
+// ============================================================
+// WiiPyCercle - Déplace un cercle à l'aide de la Wii Balance Board
+// ------------------------------------------------------------
+// Reçoit les données UDP de la Balance Board (Python)
+// et déplace le cercle à l'écran
+//
+// ============================================================
+
 import hypermedia.net.*;
 
+// ── Configuration ─────────────────────────────────────────────
 int UDP_PORT = 5005;
+
+// ── Variables UDP ─────────────────────────────────────────────
 UDP udp;
 int tr = 0, br = 0, tl = 0, bl = 0, total = 0;
 int lastReceived = 0;
 
+// ── Variables détection de déplacement ───────────────────────────────
 float bougeX = 0;
 float bougeY = 0;
 float totalX = 0;
 float totalY = 0;
 
+// ── Setup ─────────────────────────────────────────────────────
 void setup() {
   size(1280, 1080);
   textFont(createFont("Monospaced", 13));
@@ -35,13 +48,14 @@ void receive(byte[] data, String ip, int port) {
   }
 }
 
-
+// ── Déplacement Cercle ─────────────────────────────────────────
 void draw() {
   frameRate (30);
   background(0);
   fill (225, 173, 115);
   square (10, 10, 1060);
 
+// les valeurs ajoutées à bougeX et bougeY sont là pour centrer le cercle. ils sont à adapter en fonction de la configuration
 bougeX = 42 + map(totalX, -15030, 1700, 10, 1060);
 bougeY = -20 + map(totalY, 16500, -800, 10, 1060);
 
