@@ -12,7 +12,7 @@ Le script se lance sur un raspberry Pi zero 2W, il n'a pas été testé sur d'au
 Avant de lancer le script, assurez-vous que votre Wii Balance Board se connecte en bluetooth à votre Raspberry Pi Zero 2W. Celle-ci devrait apparaitre sous le nom "Nintendo RVL-WBC-01". Profitez-en pour récupérer l'adresse MAC de la Wii Balance Board. Pour appairer votre Wii Balance Board, il faudra appuyer sur le bouton rouge d'appairage situé dans le compartiment des piles.
 
 ## Configuration  
-Avant de lancer le script modifiez la configuration du script lignes 13 à 16 :
+Avant de lancer le script, modifiez la configuration du script lignes 13 à 16 :
 
 Indiquez l'adresse MAC de la Wii Balance Board : 
 - BALANCE_BOARD_ADDR = "XX:XX:XX:XX:XX:XX"
@@ -23,7 +23,7 @@ Indiquez l'adresse IP du PC sur lequel vous souhaitez envoyer les données via U
 Indiquez le port UDP que vous souhaitez utiliser : 
 - UDP_PORT = 10000
 
-indiquez l'emplacement où vous souhaitez enregistrer les logs de connexion
+Indiquez l'emplacement où vous souhaitez enregistrer les logs de connexion
 - LOG_FILE = "/home/pi/Desktop/WiiPyBoard.log"
 
 ## Lancement
