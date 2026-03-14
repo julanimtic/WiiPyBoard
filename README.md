@@ -1,5 +1,7 @@
 # WiiPyBoard
-Python script for connecting a Wii Balance Board to a PC via a Raspberry Pi zero 2W using UDP protocol.
+Python script for connecting a Wii Balance Board to a Mac/PC via a Raspberry Pi zero 2W using UDP protocol.
+
+Script Python permettant de connecter une Wii Balance Board à un Mac/PC via un Raspberry Pi Zero 2w en utilisant le protocole UDP.
 
 ## Pré-requis
 - Une Wii Balance Board
