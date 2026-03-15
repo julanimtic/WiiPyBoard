@@ -9,7 +9,7 @@
 import hypermedia.net.*;
 
 // ── Configuration ─────────────────────────────────────────────
-int UDP_PORT = 5005;
+int UDP_PORT = 10000; // A modifier en fonction de la valeur indiquée sur WiiPyBoard.py
 
 // ── Variables UDP ─────────────────────────────────────────────
 UDP udp;
