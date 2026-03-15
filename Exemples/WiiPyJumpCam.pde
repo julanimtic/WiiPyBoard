@@ -10,7 +10,7 @@ import hypermedia.net.*;
 import processing.video.*;
 
 // ── Configuration ─────────────────────────────────────────────
-final int   UDP_PORT          = 5005;
+final int   UDP_PORT          = 10000;   // A modifier en fonction de la valeur indiquée sur WiiPyBoard.py
 final int   SAUT_SEUIL        = 32000;   // total en dessous = saut détecté
 final int   POIDS_MIN         = 38000;   // total minimum pour considérer qu'une personne est présente
 final int   DELAI_PHOTO_MS    = 200;    // délai après détection du saut avant de prendre la photo (ms)
