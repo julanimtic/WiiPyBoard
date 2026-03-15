@@ -55,7 +55,7 @@ void draw() {
   fill (225, 173, 115);
   square (10, 10, 1060);
 
-// les valeurs ajoutées à bougeX et bougeY sont là pour centrer le cercle. ils sont à adapter en fonction de la configuration
+// les valeurs ajoutées à bougeX et bougeY sont là pour centrer le cercle. elles sont à adapter en fonction de la configuration
 bougeX = 42 + map(totalX, -15030, 1700, 10, 1060);
 bougeY = -20 + map(totalY, 16500, -800, 10, 1060);
 
